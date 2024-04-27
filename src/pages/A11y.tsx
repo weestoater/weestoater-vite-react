@@ -8,7 +8,7 @@ import { AxePlugin } from "../content/a11y/axeplugin";
 export const A11yPage = () => {
   return (
     <>
-      <PageTitleH1 title="A11y" />
+      <PageTitleH1 title="Accessibility (a11y)" />
       <GridLayout columns={{ xs: 1, sm: 2, md: 3, lg: 3, xl: 4 }}>
         <GridItem>
           <A11yMe />

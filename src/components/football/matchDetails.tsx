@@ -5,12 +5,12 @@ import { VideoLink } from "./videoLinkDetails";
 import { CardsDetails } from "./cardsDetails";
 import { NotesDetails } from "./notesDetails";
 
-export const MatchDetails = (props) => {
+export const MatchDetails = (props: any) => {
   const details = props.details ? props.details : null;
   return (
     <>
       {details !== null &&
-        details.map((item, key) => {
+        details.map((item: any, key: number) => {
           const league = item.league ? item.league : "SPFL";
           return (
             <Card

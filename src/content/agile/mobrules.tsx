@@ -6,7 +6,7 @@ export const MobRulesContent = () => {
   return (
     <Card>
       <h2>
-        <JigsawIcon size="2" /> Mob Rules
+        <JigsawIcon size={2} /> Mob Rules
       </h2>
       <div className="card-content">
         <img src={MobRuleImg} alt="" className="fluid" />

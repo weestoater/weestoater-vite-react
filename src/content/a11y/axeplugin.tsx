@@ -5,11 +5,11 @@ export const AxePlugin = () => {
   return (
     <Card>
       <h2>
-        <AccessibleIcon size="2" /> Axe Plugin
+        <AccessibleIcon size={2} /> Axe Plugin
       </h2>
       <div className="card-content">
         <div className="right">
-          <ApiIcon size="5" />
+          <ApiIcon size={5} />
         </div>
         <p>
           I believe in clean easy to read code, especially in my html. As part

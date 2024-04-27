@@ -17,6 +17,7 @@
     "@salt-ds/icons": "^1.9.1",
     "@salt-ds/lab": "^1.0.0-alpha.38",
     "@salt-ds/theme": "^1.13.1",
+    "@types/react-router-hash-link": "^2.4.9",
     "ag-charts-community": "^9.2.0",
     "ag-charts-react": "^9.2.1",
     "lodash": "^4.17.21",

@@ -1,5 +1,10 @@
 import { HouseLine, Barn } from "@phosphor-icons/react";
-export const ScoreDetails = ({ scored, conceded, venue }) => {
+
+export const ScoreDetails = (props: any) => {
+  const scored = props.scored ? props.scored : 0;
+  const conceded = props.conceded ? props.conceded : 0;
+  const venue = props.venue ? props.venue : "Home";
+
   let result;
   if (scored > conceded) {
     result = "Win";

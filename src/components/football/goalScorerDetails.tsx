@@ -1,7 +1,10 @@
 import { AgChartsReact } from "ag-charts-react";
+import { GoalScorersDetails } from "../../interfaces/interfaces";
 
-export const GoalScorerDetails = ({ details }) => {
-  let _options = {
+export const GoalScorerDetails = (props: any) => {
+  const details: GoalScorersDetails = props.details ? props.details : null;
+
+  const _options: any = {
     data: details,
     title: {
       enabled: true,

@@ -1,4 +1,5 @@
-export const NotesDetails = ({ notes }) => {
+export const NotesDetails = (props: any) => {
+  const notes = props.notes ? props.notes : null;
   return (
     <>
       <hr />

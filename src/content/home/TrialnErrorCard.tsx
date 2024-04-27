@@ -5,7 +5,7 @@ export const TrialnErrorCard = () => {
   return (
     <Card>
       <h2>
-        <CutIcon size="2" /> trial &amp; error
+        <CutIcon size={2} /> trial &amp; error
       </h2>
       <div className="card-content">
         <p>

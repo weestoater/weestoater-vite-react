@@ -13,7 +13,7 @@ export const SaltPost = () => {
   return (
     <Card>
       <h2>
-        <StorageIcon size="2" /> Needs a little Salt
+        <StorageIcon size={2} /> Needs a little Salt
       </h2>
       <div className="card-content">
         <img
@@ -22,7 +22,7 @@ export const SaltPost = () => {
           alt="Salt Design System homepage screenshot"
         />
         <div className="right">
-          <SaltShakerIcon size="5" />
+          <SaltShakerIcon size={5} />
         </div>
         <p>
           In a recent change of plan I've decided to ditch my AWS hosting for
@@ -60,7 +60,7 @@ export const SaltPost = () => {
           system into the mix has made it all the more enjoyable for me.
         </p>
         <div className="right">
-          <LayersIcon size="5" />
+          <LayersIcon size={5} />
         </div>
         <p>
           getting to grips with GridLayout, FlexLayout, FlowLayout and

@@ -1,4 +1,3 @@
-import React from "react";
 import { Card } from "@salt-ds/core";
 
 import mfcLogo from "../../assets/img/mfclogo.png";

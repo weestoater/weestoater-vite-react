@@ -1,4 +1,3 @@
-import React from "react";
 import { GridLayout, GridItem } from "@salt-ds/core";
 import { Tabs, TabPanel } from "@salt-ds/lab";
 import { Calendar, SoccerBall } from "@phosphor-icons/react";

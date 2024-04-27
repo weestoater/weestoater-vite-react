@@ -1,11 +1,14 @@
-export const CardsDetails = ({ cards: any }) => {
+import { Card } from "../../interfaces/interfaces";
+
+export const CardsDetails = (props: any) => {
+  const cards: any = props.cards ? props.cards : null;
   return (
     <>
       <p>
         <strong>Cards</strong>:
       </p>
       <ul className="no-bullets">
-        {cards.map((item, key) => {
+        {cards.map((item: Card, key: number) => {
           return (
             <li key={key}>
               <div

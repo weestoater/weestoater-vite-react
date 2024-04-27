@@ -1,4 +1,3 @@
-import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 //--  patterns
@@ -9,7 +8,7 @@ import { HomePage } from "./pages/Home";
 import { AboutPage } from "./pages/About";
 import { A11yPage } from "./pages/A11y";
 import { AgilePage } from "./pages/Agile";
-// import { FootballPage } from "./pages/Football";
+import { FootballPage } from "./pages/Football";
 import { ReactPage } from "./pages/React";
 
 export const App = () => {
@@ -26,7 +25,7 @@ export const App = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/a11y" element={<A11yPage />} />
           <Route path="/agile" element={<AgilePage />} />
-          {/* <Route path="/football" element={<FootballPage />} />*/}
+          <Route path="/football" element={<FootballPage />} />
           <Route path="/react" element={<ReactPage />} />
         </Routes>
       </main>

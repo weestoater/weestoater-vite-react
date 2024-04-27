@@ -1,4 +1,3 @@
-import React from "react";
 import { GridItem, GridLayout } from "@salt-ds/core";
 
 import { PageTitleH1 } from "../components/global/pageTitleHeading";

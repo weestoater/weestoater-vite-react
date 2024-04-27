@@ -7,7 +7,7 @@ export const NextThingPost = () => {
   return (
     <Card>
       <h2>
-        <StorageIcon size="2" /> NextJS things Next...
+        <StorageIcon size={2} /> NextJS things Next...
       </h2>
 
       <div className="card-content">

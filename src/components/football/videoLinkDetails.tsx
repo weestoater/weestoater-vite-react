@@ -1,7 +1,7 @@
 import { YoutubeLogo } from "@phosphor-icons/react";
 
-export const VideoLink = ({ url }) => {
-  const video = url;
+export const VideoLink = (props: any) => {
+  const video = props.url ? props.url : null;
   return (
     <p>
       <YoutubeLogo size={24} />

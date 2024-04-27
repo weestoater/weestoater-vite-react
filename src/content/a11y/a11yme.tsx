@@ -5,11 +5,11 @@ export const A11yMe = () => {
   return (
     <Card>
       <h2>
-        <AccessibleIcon size="2" /> A11y &amp; me
+        <AccessibleIcon size={2} /> A11y &amp; me
       </h2>
       <div className="card-content">
         <div className="right">
-          <UniversalAccessIcon size="5" />
+          <UniversalAccessIcon size={5} />
         </div>
 
         <p>

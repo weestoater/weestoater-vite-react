@@ -6,7 +6,7 @@ export const AgilePractices = () => {
   return (
     <Card>
       <h2>
-        <JigsawIcon size="2" /> Agile practices
+        <JigsawIcon size={2} /> Agile practices
       </h2>
 
       <div className="card-content">
@@ -41,7 +41,7 @@ export const AgilePractices = () => {
           candy in a sweet shop and it's all good stuff.
         </p>
         <div className="right">
-          <DashboardIcon size="5" />
+          <DashboardIcon size={5} />
         </div>
         <p>
           I fully understand that business needs to have a clear idea of how

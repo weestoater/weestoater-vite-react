@@ -5,15 +5,14 @@ export const EthosCard = () => {
   return (
     <Card>
       <h2>
-        <CropsIcon size="2" /> Ethos
+        <CropsIcon size={2} /> Ethos
       </h2>
       <div className="card-content">
         <p>
           I started this space as an online area for me to experiment with
-          ReactJS and data 'patterns' <strike>on AWS</strike>. I've not got any
-          desire to add a database or other server-side mechanisms - instead I
-          want to concentrate purely on the front end aspects of rendering JSON
-          payloads.
+          ReactJS and data 'patterns'. I've not got any desire to add a database
+          or other server-side mechanisms - instead I want to concentrate purely
+          on the front end aspects of rendering JSON payloads.
         </p>
         <p>
           There isn't any roadmap of what I will build, but I am iterating

@@ -5,12 +5,12 @@ export const A11yPromotion = () => {
   return (
     <Card>
       <h2>
-        <AccessibleIcon size="2" /> A11y Promotion
+        <AccessibleIcon size={2} /> A11y Promotion
       </h2>
 
       <div className="card-content">
         <div className="right">
-          <ThumbsUpIcon size="5" />
+          <ThumbsUpIcon size={5} />
         </div>
         <p>
           I am incredibly lucky to work for a company who support and encourage
