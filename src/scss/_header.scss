@@ -1,0 +1,66 @@
+header .app-header {
+    margin: 0 0 2rem;
+    padding: 0;
+    height: 4rem;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 .5rem #ccc;
+
+    .header-menu-icon,
+    .header-app-logo {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .header-app-logo {
+        width: 12rem;
+        border: 1px dashed transparent;
+        justify-content: start;
+
+        img {
+            width: 3rem;
+            border-radius: 50%;
+        }
+
+        .saltText {
+            margin: .75rem;
+            font-family: 'Gabriela', serif;
+            font-size: 1.5rem;
+        }
+    }
+
+    .header-menu-btn {
+        z-index: 5000;
+    }
+
+    .header-nav {
+        display: flex;
+        box-shadow: none;
+        justify-content: center;
+        width: 95vw;
+
+        ul,
+        li {
+            list-style-type: "";
+        }
+    }
+
+    .header-utils {
+        display: flex;
+        align-content: flex-start;
+        justify-content: center;
+        margin: 1.5rem 2rem 0 0;
+
+        .icon {
+            margin-left: 2rem;
+        }
+
+        // mobile 
+        @media(max-width: 616px) {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+}
