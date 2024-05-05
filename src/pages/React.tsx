@@ -9,7 +9,7 @@ import { ViteContent } from "../content/react/ViteReact";
 export const ReactPage = () => {
   return (
     <>
-      <PageTitleH1 title="React" />
+      <PageTitleH1 title="React Articles" />
       <GridLayout columns={{ xs: 1, sm: 2, md: 3, lg: 3, xl: 4 }}>
         <GridItem>
           <ViteContent />
