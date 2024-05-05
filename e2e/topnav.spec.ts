@@ -32,5 +32,5 @@ test('get Football link', async ({ page }) => {
 test('get React link', async ({ page }) => {
   await page.goto('http://localhost:5173/#/home');
   await page.getByRole('link', { name: 'React' }).click();
-  await expect(page.getByRole('heading', { name: 'React Articles' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'React articles' })).toBeVisible();
 });

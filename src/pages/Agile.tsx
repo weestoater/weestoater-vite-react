@@ -9,7 +9,7 @@ import { LessonsLearnedContent } from "../content/agile/lessonslearned";
 export const AgilePage = () => {
   return (
     <>
-      <PageTitleH1 title="Agile Articles" />
+      <PageTitleH1 title="Agile articles" />
 
       <GridLayout columns={{ xs: 1, sm: 2, md: 3, lg: 3, xl: 4 }}>
         <GridItem>
