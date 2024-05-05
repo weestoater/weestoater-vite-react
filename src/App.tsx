@@ -14,7 +14,12 @@ import { ReactPage } from "./pages/React";
 export const App = () => {
   return (
     <HashRouter>
-      <HashLink smooth to="#main-content" className="skip-link">
+      <HashLink
+        smooth
+        to="#main-content"
+        className="skip-link"
+        data-testid="main-content-skip-link"
+      >
         Skip to main content
       </HashLink>
       <Header />
