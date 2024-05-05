@@ -4,7 +4,7 @@
     "details": [
         {
             "player": "Theo Bair",
-            "goals": 13
+            "goals": 15
         },
         {
             "player": "Blair Spittal",
@@ -17,7 +17,11 @@
         {
             "player": "Conor Wilkinson",
             "goals": 4
-        },        
+        },
+        {
+            "player": "Dan Casey",
+            "goals": 3
+        }, 
         {
             "player": "Callum Slattery",
             "goals": 3
@@ -37,13 +41,13 @@
         {
             "player": "Jack Vale",
             "goals": 2
-        },
+        },        
         {
-            "player": "Dan Casey",
+            "player": "Bevis Mugabi",
             "goals": 2
         },
         {
-            "player": "Bevis Mugabi",
+            "player": "Sam Nicholson",
             "goals": 2
         },
         {
@@ -64,10 +68,6 @@
         },
         {
             "player": "Luca Ross",
-            "goals": 1
-        },
-        {
-            "player": "Sam Nicholson",
             "goals": 1
         },
         {

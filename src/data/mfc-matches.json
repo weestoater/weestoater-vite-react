@@ -3,6 +3,61 @@
         "season": "2023-24",
         "details": [
             {
+                "scored": 4,
+                "conceded": 1,
+                "date": "04/05/24",
+                "opposition": "Livingston",
+                "venue": "Home",
+                "league": null,
+                "goals": [
+                    {
+                        "player": "Dan Casey",
+                        "mins": "74"
+                    },
+                    {
+                        "player": "Theo Bair",
+                        "mins": "68"
+                    },
+                    {
+                        "player": "Sam Nicholson",
+                        "mins": "45+2"
+                    },
+                    {
+                        "player": "Theo Bair",
+                        "mins": "21 (Pen)"
+                    }
+                ],
+                "cards": [
+                    {
+                        "player": "Davor Zdravkovskir",
+                        "card": "yellow",
+                        "mins":"86"
+                    },
+                    {
+                        "player": "Lennon Miller",
+                        "card": "yellow",
+                        "mins":"70"
+                    }
+                ],
+                "notes": "An impressive score but dissappointing to not get the clean sheet. Commentators claiming some of the VAR decisions were poor for Livingston, which is unfortunate, but like all the other cliche's in football - they even themselves out in the end. Great goal from Nicholson by all account - look forward to seeing it on the highlights."
+            },
+            {
+                "scored": 0,
+                "conceded": 1,
+                "date": "27/04/24",
+                "opposition": "Aberdeen",
+                "venue": "Away",
+                "league": null,
+                "goals": null,
+                "cards": [
+                    {
+                        "player": "Jack Vale",
+                        "card": "red",
+                        "mins":"56"
+                    }
+                ],
+                "notes": "An unimpressive start to the post-split games, and a long journey home to lick our wounds. Commentary says referee was not great, but that's no excuse. No goals scored and a man down for the majority of the second half - however reckless or not - isn't the performance the manager or supporters are expecting."
+            },{
                 "scored": 1,
                 "conceded": 1,
                 "date": "13/04/24",

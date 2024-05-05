@@ -12,7 +12,7 @@ export const ViteContent = () => {
   return (
     <Card>
       <h2>
-        <Atom size={32} /> Vite + React-ts
+        <Atom size={32} /> Vite &amp; React-ts
       </h2>
       <div className="card-content">
         <img src={viteLogo} className="right" alt="Vite logo" />

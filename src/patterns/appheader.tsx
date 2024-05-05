@@ -88,7 +88,7 @@ export const Header = () => {
           <></>
         )}
         <FlexItem className="header-utils">
-          <GithubIcon className="icon" />
+          <GithubIcon className="icon" data-testid="github-icon" />
         </FlexItem>
       </StackLayout>
     </header>
