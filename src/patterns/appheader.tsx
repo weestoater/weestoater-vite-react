@@ -11,6 +11,8 @@ import {
 } from "@salt-ds/core";
 
 import { MenuIcon, GithubIcon } from "@salt-ds/icons";
+
+import { HashLink } from "react-router-hash-link";
 import wsIcon from "../assets/img/weestoater-icon.png";
 
 export const Header = () => {
@@ -28,6 +30,14 @@ export const Header = () => {
 
   return (
     <header>
+      <HashLink
+        smooth
+        to="#main-content"
+        className="skip-link"
+        data-testid="main-content-skip-link"
+      >
+        Skip to main content
+      </HashLink>
       <StackLayout direction="row" className="app-header">
         {isMobile ? (
           <FlexItem className="header-menu-icon">
