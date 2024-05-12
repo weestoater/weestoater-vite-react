@@ -8,7 +8,7 @@
         },
         {
             "player": "Blair Spittal",
-            "goals": 9
+            "goals": 11
         },
         {
             "player": "Mika Biereth",
@@ -21,13 +21,13 @@
         {
             "player": "Dan Casey",
             "goals": 3
-        }, 
-        {
-            "player": "Callum Slattery",
-            "goals": 3
         },        
         {
             "player": "Jonathan Obika",
+            "goals": 3
+        }, 
+        {
+            "player": "Callum Slattery",
             "goals": 3
         },
         {
@@ -37,10 +37,6 @@
         {
             "player": "Lennon Miller",
             "goals": 2
-        },
-        {
-            "player": "Jack Vale",
-            "goals": 2
         },        
         {
             "player": "Bevis Mugabi",
@@ -49,6 +45,18 @@
         {
             "player": "Sam Nicholson",
             "goals": 2
+        },
+        {
+            "player": "Harry Paton",
+            "goals": 2
+        },
+        {
+            "player": "Jack Vale",
+            "goals": 2
+        },
+        {
+            "player": "Adam Devine",
+            "goals": 1
         },
         {
             "player": "Georgie Gent",
@@ -63,15 +71,11 @@
             "goals": 1
         },
         {
-            "player": "Harry Paton",
-            "goals": 1
-        },
-        {
             "player": "Luca Ross",
             "goals": 1
         },
         {
-            "player": "Adam Devine",
+            "player": "Davor Zdravkovski",
             "goals": 1
         }
     ]    

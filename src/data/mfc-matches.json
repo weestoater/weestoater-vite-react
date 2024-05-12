@@ -3,6 +3,50 @@
         "season": "2023-24",
         "details": [
             {
+                "scored": 5,
+                "conceded": 1,
+                "date": "11/05/24",
+                "opposition": "Ross County",
+                "venue": "Away",
+                "league": null,
+                "goals": [
+                    {
+                        "player": "Harry Paton",
+                        "mins": "90+4"
+                    },
+                    {
+                        "player": "Davor Zdravkovskir",
+                        "mins": "90"
+                    },
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "82"
+                    },
+                    {
+                        "player": "Paul McGinn",
+                        "mins": "40"
+                    },
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "8"
+                    }
+                ],
+                "cards": [
+                    {
+                        "player": "Davor Zdravkovskir",
+                        "card": "yellow",
+                        "mins":"71"
+                    },
+                    {
+                        "player": "Georgie Gent",
+                        "card": "yellow",
+                        "mins":"57"
+                    }
+                ],
+                "video":"https://www.youtube.com/watch?v=l0aLkdti9gI",
+                "notes": "A polished vicotry with some tasty play from the Steelmen.  A rare Paul McGinn goal, but the least he deserves for a great seasons efforts. Soft goals from opposition keepers errors aside, Motherwell were worthy winners, scoring three in the last ten minutes."
+            },
+            {
                 "scored": 4,
                 "conceded": 1,
                 "date": "04/05/24",
@@ -39,6 +83,7 @@
                         "mins":"70"
                     }
                 ],
+                "video":"https://youtu.be/QOCHnJ47mbU?si=xSspqDQnBuR-w4Kc",
                 "notes": "An impressive score but dissappointing to not get the clean sheet. Commentators claiming some of the VAR decisions were poor for Livingston, which is unfortunate, but like all the other cliche's in football - they even themselves out in the end. Great goal from Nicholson by all account - look forward to seeing it on the highlights."
             },
             {
