@@ -11,7 +11,13 @@ import mfcMatches from "../data/mfc-matches.json";
 import { FootballIntro } from "../content/football/footballIntro";
 
 export const FootballPage = () => {
-  const seasons = ["2023-2024", "2022-2023", "2021-2022", "2020-2021"];
+  const seasons = [
+    "2024-2025",
+    "2023-2024",
+    "2022-2023",
+    "2021-2022",
+    "2020-2021",
+  ];
 
   return (
     <>

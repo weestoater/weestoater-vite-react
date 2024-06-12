@@ -1,7 +1,29 @@
 [
     {
+    "season": "2024-25",
+    "details": []
+    },
+    {
         "season": "2023-24",
         "details": [
+            {
+                "scored": 0,
+                "conceded": 3,
+                "date": "15/05/24",
+                "opposition": "Hibernian",
+                "venue": "Away",
+                "league": null,
+                "goals": null,
+                "cards": [
+                    {
+                        "player": "Georgie Gent",
+                        "card": "yellow",
+                        "mins":"28"
+                    }
+                ],
+                "video":"https://youtu.be/bQvQEFczWis?si=YwkmjN_K3OYP5LaE",
+                "notes": "A merky night in Easter Rd with an equally poor performance. One to forget."
+            },
             {
                 "scored": 5,
                 "conceded": 1,

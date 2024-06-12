@@ -25,7 +25,15 @@ export const Header = () => {
     false
   );
 
-  const items = ["Home", "About", "A11y", "Agile", "Football", "React"];
+  const items = [
+    "Home",
+    "About",
+    "A11y",
+    "Agile",
+    "Football",
+    "Landie",
+    "React",
+  ];
   const [active, setActive] = useState(items[0]);
 
   return (
