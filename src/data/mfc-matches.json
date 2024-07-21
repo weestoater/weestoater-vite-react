@@ -1,7 +1,99 @@
 [
     {
     "season": "2024-25",
-    "details": []
+    "details": [
+        {
+            "scored": 3,
+            "conceded": 1,
+            "date": "20/07/24",
+            "opposition": "Clyde",
+            "venue": "Away",
+            "league": "Scottish League Cup - Group G",
+            "goals": [
+                {
+                "player": "Moses Ebiye",
+                "mins": 12
+                },
+                {
+                "player": "Lennon Miller",
+                "mins": "65 (pen)"
+                },
+                {
+                "player": "Filip Stuparevic",
+                "mins": 86
+                }
+            ],
+            "cards": null,
+            "video": null,
+            "notes": "Motherwell got the better of Clyde in the Scottish League Cup, with Lennon Miller among the scorers. Moses Ebiye struck to give the visitors a 12th-minute lead only for Lee Hamilton to get Clyde back on terms just after the hour. Brian Kinnear fouled Miller, who netted the resulting penalty himself.And Filip Stuparevic netted his first Motherwell goal in added time. Stuart Kettlewell's side have eight points after three games, two more than second-placed Partick Thistle, who have played twice."
+        },
+        {
+            "scored": 1,
+            "conceded": 1,
+            "date": "16/07/24",
+            "opposition": "Montrose",
+            "venue": "Away",
+            "league": "Scottish League Cup - Group G",
+            "goals": [
+                {
+                "player": "Shane Blaney",
+                "mins": 31
+                }
+            ],
+            "cards": null,
+            "video": null,
+            "notes": "Horrendous display for a team of full-time professional players against part-time plumbers and sparkies. To go through on penalties is embarrassing frankly. Motherwell were denied a late Scottish League Cup group win away to Montrose but claimed a penalty shoot-out bonus point. Stuart Kettlewell's side looked set to make it two victories from two when defender Shane Blaney's first-half header went unanswered until late on. But midfielder Ali Shrive's finish on the spin meant the third-tier side would gain at least a draw while denying their top-flight visitors three points. However, Kettlewell's men ensured it was just one point they dropped, winning 5-4 on spot kicks after the full-time whistle. Edinburgh City and Clyde play the group's other midweek game on Wednesday."
+        },
+        {
+            "scored": 3,
+            "conceded": 0,
+            "date": "13/07/24",
+            "opposition": "Edinburgh City",
+            "venue": "Home",
+            "league": "Scottish League Cup - Group G",
+            "goals": [
+                {
+                "player": "Kofi Balmer",
+                "mins": 43
+                },
+                {
+                "player": "Dan Casey",
+                "mins": 56
+                },
+                {
+                "player": "Stephen O'Donnell",
+                "mins": 61
+                }
+            ],
+            "cards": null,
+            "video": null,
+            "notes": "A clean sheet at last but not as convincing a win as perhaps should have been. Motherwell got off to a strong start in their Scottish League Cup Group G campaign with a three-goal win over fourth-tier side Edinburgh City. Debutant Kofi Balmer, who left Crystal Palace this summer, got the visitors off the mark as he headed in from veteran Andy Halliday’s corner in the opening half. Fellow defender Dan Casey grabbed the second shortly after the break, once again finishing from a corner. Right-back Stephen O’Donnell delivered the third to secure the victory for Stuart Kettlewell's Premiership hosts."
+        },
+        {
+            "scored": 4,
+            "conceded": 2,
+            "date": "09/07/24",
+            "opposition": "Livingston",
+            "venue": "Away",
+            "league": "Club friendly",
+            "goals": null,
+            "cards": null,
+            "video": null,
+            "notes": "Again, hardly easy and worryingly not a clean sheet. But a good session in places and some nice interplay between some of the squad."
+        },
+        {
+            "scored": 2,
+            "conceded": 1,
+            "date": "06/07/24",
+            "opposition": "Livingston",
+            "venue": "Home",
+            "league": "Club friendly",
+            "goals": null,
+            "cards": null,
+            "video": null,
+            "notes": "Not a convincing win by any means, but a good try-out for some of the players."
+        }
+    ]
     },
     {
         "season": "2023-24",

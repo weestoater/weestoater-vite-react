@@ -23,10 +23,10 @@ export const EarlyAge = () => {
         </p>
 
         <p>
-          The gliding school base was tucked away in a random corner of the
-          base, right on the edge of nowhere. So to get the cadets to the
-          gliders, the school had a rather beaten up and much abused Land Rover
-          Series II Lightweight.
+          The gliding school was tucked away in a random corner of the base,
+          right on the edge of nowhere. So to get the cadets to the gliders, the
+          school had a rather beaten up and much abused Land Rover Series II
+          Lightweight.
         </p>
         <p>
           Our instructor threw the Lightweight around the tracks at the back of

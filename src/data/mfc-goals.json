@@ -1,7 +1,36 @@
 [
     {
     "season": "2024-25",
-    "details": []
+    "details": [
+        {
+            "player": "Kofi Balmer",
+            "goals": 1
+        },
+        {
+            "player": "Shane Blaney",
+            "goals": 1
+        },
+        {
+            "player": "Dan Casey",
+            "goals": 1
+        },
+        {
+            "player": "Stephen O'Donnell",
+            "goals": 1
+        },
+        {
+            "player": "Moses Ebiye",
+            "goals": 1
+        },
+        {
+            "player": "Lennon Miller",
+            "goals": 1
+        },
+        {
+            "player": "Filip Stuperavic",
+            "goals": 1
+        }
+    ]
     },
     {
     "season": "2023-24",
