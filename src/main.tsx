@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { SaltProvider } from "@salt-ds/core";
+import { SaltProviderNext } from "@salt-ds/core";
 
 import { App } from "./App.tsx";
 
@@ -18,10 +18,11 @@ import "@fontsource/open-sans/800-italic.css";
 import "@fontsource/pt-mono";
 
 import "@salt-ds/theme/index.css";
+import "@salt-ds/theme/css/theme-next.css";
 import "./scss/style.scss";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <SaltProvider>
+  <SaltProviderNext corner="rounded" accent="teal">
     <App />
-  </SaltProvider>
+  </SaltProviderNext>
 );

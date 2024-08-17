@@ -702,7 +702,7 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.18.0.tgz#5d694d345ce36b6ecf657349e03eb87297e68da4"
   integrity sha512-UOo5FdvOL0+eIVTgS4tIdbW+TtnBLWg1YBCcU2KWM7nuNwRz9bksDX1bekJJCpu25N1DVWaCwnT39dVQxzqS8g==
 
-"@salt-ds/core@^1.22.0", "@salt-ds/core@^1.28.1":
+"@salt-ds/core@^1.28.1":
   version "1.28.1"
   resolved "https://registry.yarnpkg.com/@salt-ds/core/-/core-1.28.1.tgz#9703dfd08de0c5d503d1be954930feacf568f7a8"
   integrity sha512-XX35kebsyRCPIjL3P4DOrnBcwT/26mNsdYd8hCD+Wo55Ymzzahk+q6X6y489xbkfE/RwOMQAGtqXm31hp56uQA==
@@ -713,10 +713,30 @@
     "@salt-ds/window" "^0.1.1"
     clsx "^2.0.0"
 
-"@salt-ds/icons@^1.12.0", "@salt-ds/icons@^1.9.1":
+"@salt-ds/core@^1.34.0":
+  version "1.34.0"
+  resolved "https://registry.yarnpkg.com/@salt-ds/core/-/core-1.34.0.tgz#628eee45c06ebe5335833efb086b23c8bf3765f9"
+  integrity sha512-R7nwxks5JA4DYUcVeL6oe8DIcI7nn/YYnvV7HNbOCq9aQBWc07bYRfj9tcBYbnXlVPMYDFqFbvTtSv8PN5jC+A==
+  dependencies:
+    "@floating-ui/react" "^0.26.5"
+    "@salt-ds/icons" "^1.12.1"
+    "@salt-ds/styles" "^0.2.1"
+    "@salt-ds/window" "^0.1.1"
+    clsx "^2.0.0"
+
+"@salt-ds/icons@^1.12.0":
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/@salt-ds/icons/-/icons-1.12.0.tgz#d1807249b9d68880c5e0f41860d56d7a58d58b69"
   integrity sha512-DzhQmIzlFpbGQpimlDK5V/yNmuB1lYDa/kNhi9SzxiR0t1bRThn5h+V3Klxmug9wZelavdVig/itoDWvjGpAng==
+  dependencies:
+    "@salt-ds/styles" "^0.2.1"
+    "@salt-ds/window" "^0.1.1"
+    clsx "^2.0.0"
+
+"@salt-ds/icons@^1.12.1":
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@salt-ds/icons/-/icons-1.12.1.tgz#817844b1102ae8b2c90bf1bae632de02a684ffd4"
+  integrity sha512-YSFBXEh+knGLWFVMoYqnQMUgWKyJk8CcsiW6OPCS4f4IEkT8p/CoSkgnK5gMe01m6DtL6Cby++IXCSZbMzQwmw==
   dependencies:
     "@salt-ds/styles" "^0.2.1"
     "@salt-ds/window" "^0.1.1"
@@ -752,10 +772,10 @@
   resolved "https://registry.yarnpkg.com/@salt-ds/styles/-/styles-0.2.1.tgz#d6fc1bee5a8d3931cba4ec8baa14f1ad3d7582a4"
   integrity sha512-/GYQLY+ILzGyd2/KndCmoEfLw/t3pcYwihJn3ofe4yd6nhLYHPkvl4TXXzq6NnfD3NHmQWnWh3jQicLsYcvdXg==
 
-"@salt-ds/theme@^1.13.1":
-  version "1.17.0"
-  resolved "https://registry.yarnpkg.com/@salt-ds/theme/-/theme-1.17.0.tgz#3cd7456d44bc34fa57161d4ef7d55e3f8287a527"
-  integrity sha512-GFEx/9msPQud6kQHVZbRs2y+ISJ/PbnHQtYmYijTTYkMt4XsfJcL1vo+PcZGG64B9wevIPdzstGvDoTkWXE8sA==
+"@salt-ds/theme@^1.21.0":
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/@salt-ds/theme/-/theme-1.21.0.tgz#bc0ff8b5c95f25d36fa7bb6cbce2c86b11e566f1"
+  integrity sha512-HroEA6ohmG5FxBUsn6yaG1tUd5EKk1b4gev6gYhvo1PlVEXFQFBsVrQpcXjlWWkrUDzqaDAmz4XBdA9T2W5oow==
 
 "@salt-ds/window@^0.1.1":
   version "0.1.1"
