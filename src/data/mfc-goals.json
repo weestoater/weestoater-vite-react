@@ -3,6 +3,10 @@
     "season": "2024-25",
     "details": [
         {
+            "player": "Moses Ebiye",
+            "goals": 2
+        },
+        {
             "player": "Kofi Balmer",
             "goals": 1
         },
@@ -16,10 +20,6 @@
         },
         {
             "player": "Stephen O'Donnell",
-            "goals": 1
-        },
-        {
-            "player": "Moses Ebiye",
             "goals": 1
         },
         {

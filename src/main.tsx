@@ -1,7 +1,6 @@
 import ReactDOM from "react-dom/client";
-import { SaltProviderNext } from "@salt-ds/core";
 
-import { App } from "./App.tsx";
+import { App } from "./App";
 
 import "@fontsource/open-sans/300.css";
 import "@fontsource/open-sans/300-italic.css";
@@ -21,8 +20,4 @@ import "@salt-ds/theme/index.css";
 import "@salt-ds/theme/css/theme-next.css";
 import "./scss/style.scss";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
-  <SaltProviderNext corner="rounded" accent="teal">
-    <App />
-  </SaltProviderNext>
-);
+ReactDOM.createRoot(document.getElementById("root")!).render(<App />);

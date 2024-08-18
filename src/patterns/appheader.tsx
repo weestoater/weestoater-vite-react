@@ -7,6 +7,8 @@ import {
   NavigationItem,
   StackLayout,
   Text,
+  ToggleButton,
+  ToggleButtonGroup,
   useResponsiveProp,
 } from "@salt-ds/core";
 
@@ -15,7 +17,7 @@ import { MenuIcon, GithubIcon } from "@salt-ds/icons";
 import { HashLink } from "react-router-hash-link";
 import wsIcon from "../assets/img/weestoater-icon.png";
 
-export const Header = () => {
+export const Header = (props: any) => {
   const [openPrimary, setOpenPrimary] = useState(false);
   const isMobile = useResponsiveProp(
     {
@@ -35,6 +37,9 @@ export const Header = () => {
     "React",
   ];
   const [active, setActive] = useState(items[0]);
+
+  const handleTheme = props.themechanger;
+  const themeMode = props.currenttheme;
 
   return (
     <header>
@@ -107,7 +112,20 @@ export const Header = () => {
         )}
         <FlexItem className="header-utils">
           <GithubIcon className="icon" data-testid="github-icon" />
+          <ToggleButtonGroup
+            className="toggleThemeBtn"
+            onChange={handleTheme}
+            value={themeMode}
+          >
+            <ToggleButton aria-label="light theme" value="light">
+              Light
+            </ToggleButton>
+            <ToggleButton aria-label="dark theme" value="dark">
+              Dark
+            </ToggleButton>
+          </ToggleButtonGroup>
         </FlexItem>
+        <FlexItem></FlexItem>
       </StackLayout>
     </header>
   );
