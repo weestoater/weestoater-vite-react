@@ -22,6 +22,10 @@ html[data-mode="dark"] {
         border: 1px dotted var(--salt-color-gray-200);
         border-left: 5px solid var(--salt-color-gray-200);
     }
+
+    .densityBtn {
+        border-color: var(--salt-color-gray-700)
+    }
 }
 html[data-mode="light"] {
     h1,h2,h3,h4,h5,h6 {
@@ -42,6 +46,10 @@ html[data-mode="light"] {
     blockquote {
         border: 1px dotted $chuck;
         border-left: 5px solid $chuck;
+    }
+
+    .densityBtn {
+        border-color: var(--salt-color-gray-300)
     }
 
 }
@@ -75,6 +83,19 @@ html[data-mode="light"] {
 .toggleThemeBtn {
     margin: -.5rem 0 0 1rem;
     height: 1.7rem;
+}
+
+.densityBtn {
+    margin: -.5rem 0 0 1rem;
+}
+
+.right-drawer {
+    width: 10%;
+    padding: 2rem;
+
+    @media(max-width: 616px) {
+        width: 35%;        
+    }
 }
 
 //----  blockquote

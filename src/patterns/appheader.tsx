@@ -12,13 +12,21 @@ import {
   useResponsiveProp,
 } from "@salt-ds/core";
 
-import { MenuIcon, GithubIcon } from "@salt-ds/icons";
+import {
+  DarkIcon,
+  LightIcon,
+  MenuIcon,
+  GithubIcon,
+  BooleanIcon,
+} from "@salt-ds/icons";
 
 import { HashLink } from "react-router-hash-link";
 import wsIcon from "../assets/img/weestoater-icon.png";
 
 export const Header = (props: any) => {
   const [openPrimary, setOpenPrimary] = useState(false);
+  const [openRightDrawer, setOpenRightDrawer] = useState(false);
+
   const isMobile = useResponsiveProp(
     {
       xs: true,
@@ -40,6 +48,12 @@ export const Header = (props: any) => {
 
   const handleTheme = props.themechanger;
   const themeMode = props.currenttheme;
+  const handleDensity = props.densitychanger;
+  const cdensity = props.currentdensity;
+
+  const handleRightDrawerRequest = () => {
+    setOpenRightDrawer(!openRightDrawer);
+  };
 
   return (
     <header>
@@ -112,18 +126,55 @@ export const Header = (props: any) => {
         )}
         <FlexItem className="header-utils">
           <GithubIcon className="icon" data-testid="github-icon" />
+
           <ToggleButtonGroup
             className="toggleThemeBtn"
             onChange={handleTheme}
             value={themeMode}
           >
-            <ToggleButton aria-label="light theme" value="light">
-              Light
+            <ToggleButton
+              aria-label="light theme"
+              title="Light mode"
+              value="light"
+            >
+              <LightIcon />
             </ToggleButton>
-            <ToggleButton aria-label="dark theme" value="dark">
-              Dark
+            <ToggleButton
+              aria-label="dark theme"
+              title="Dark mode"
+              value="dark"
+            >
+              <DarkIcon />
             </ToggleButton>
           </ToggleButtonGroup>
+
+          <Button
+            onClick={handleRightDrawerRequest}
+            variant="secondary"
+            className="densityBtn"
+            title="Density switcher"
+          >
+            <BooleanIcon />
+          </Button>
+          <Drawer
+            open={openRightDrawer}
+            position="right"
+            className="right-drawer"
+          >
+            <DrawerCloseButton onClick={() => setOpenRightDrawer(false)} />
+            <h2>Density</h2>
+            <ToggleButtonGroup
+              aria-label="density selector"
+              onChange={handleDensity}
+              value={cdensity}
+              orientation="vertical"
+            >
+              <ToggleButton value="high">HIGH</ToggleButton>
+              <ToggleButton value="medium">MEDIUM</ToggleButton>
+              <ToggleButton value="low">LOW</ToggleButton>
+              <ToggleButton value="touch">TOUCH</ToggleButton>
+            </ToggleButtonGroup>
+          </Drawer>
         </FlexItem>
         <FlexItem></FlexItem>
       </StackLayout>
