@@ -125,7 +125,14 @@ export const Header = (props: any) => {
           <></>
         )}
         <FlexItem className="header-utils">
-          <GithubIcon className="icon" data-testid="github-icon" />
+          <a
+            href="https://github.com/weestoater/weestoater-vite-react"
+            target="_blank"
+            rel="noreferrer"
+            className="saltButton saltButton-secondary densityBtn"
+          >
+            <GithubIcon data-testid="github-icon" />
+          </a>
 
           <ToggleButtonGroup
             className="toggleThemeBtn"
