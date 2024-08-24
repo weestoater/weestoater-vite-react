@@ -41,11 +41,11 @@ export const SaltPost = () => {
         </p>
 
         <p>
-          It only supports for <strong>React</strong>, so I'm parking my
+          It only supports <strong>React</strong>, so I'm parking my
           experimentations with NextJS for a while, as I wasn't finding a lot of
           time on it to be honest. Instead, I'm concentrating on refactoring out
-          the <code>Bootstrap</code> layout ofweestoater, for a{" "}
-          <strong>@salt-ds</strong> one instead.
+          the <code>Bootstrap</code> layout of weestoater, for{" "}
+          <strong>@salt-ds</strong> instead.
         </p>
         <div className="left w5">
           <Gauge size={64} />

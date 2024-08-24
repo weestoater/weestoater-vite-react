@@ -11,7 +11,7 @@ export const NextThingPost = () => {
       </h2>
 
       <div className="card-content">
-        <img src={NextJSLogo} alt="NextJS logo" className="right" />
+        <img src={NextJSLogo} alt="NextJS logo" className="right w10" />
         <p>
           On a recent works 'global hackathon' I did a small PoC using NextJS
           and Bootstrap. I really wasn't sure what to expect with NextJS, but
@@ -20,7 +20,7 @@ export const NextThingPost = () => {
         </p>
         <p>
           The way that NextJs looks after the '<i>server-side</i>'{" "}
-          <code>api</code> is very neat - and extensible. I was easily able to
+          <code>api</code> is very neat and extensible. I was easily able to
           hook up my data sets and get the PoC showing actual data. This was one
           of the main issues I was aiming to overcome, so such a quick-win was
           really appreciated.

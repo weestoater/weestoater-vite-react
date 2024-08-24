@@ -15,7 +15,7 @@ export const ViteContent = () => {
         <Atom size={32} /> Vite &amp; React-ts
       </h2>
       <div className="card-content">
-        <img src={viteLogo} className="right" alt="Vite logo" />
+        <img src={viteLogo} className="right w10" alt="Vite logo" />
         <p>
           I've been messing about with{" "}
           <a href="http://vite.dev" target="_blank" rel="noreferrer">
@@ -24,9 +24,8 @@ export const ViteContent = () => {
           at work on a couple of projects and I'm really beginning to enjoy it.
         </p>
         <p>
-          I've not begun putting in any <code>vitest</code> scripts yet, so I
-          might need to review / update my opinion on it after that, but at the
-          time of writing <strong>weestoater</strong> is being converted from:-
+          I've put in some <code>vitest</code> scripts and found it pretty
+          painless so <strong>weestoater</strong> has been converted from:-
         </p>
         <div className="right">
           <FileJs size={64} />
@@ -54,9 +53,9 @@ export const ViteContent = () => {
           </li>
         </ul>
         <p>
-          So far, converting to <code>TS</code> has had minimal impact, but I
-          currently have 75+% test coverage on the webpack version - so need to
-          replicate that in <code>vitest</code> - which I've never used.
+          Converting to <code>TS</code> had minimal impact, I had 75% test
+          coverage on the webpack version, which I managed to improve on
+          slightly in <code>vitest</code> - to 80%.
         </p>
         <div className="right">
           <TestTube size={64} />
