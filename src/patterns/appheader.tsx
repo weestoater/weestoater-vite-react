@@ -12,13 +12,7 @@ import {
   useResponsiveProp,
 } from "@salt-ds/core";
 
-import {
-  DarkIcon,
-  LightIcon,
-  MenuIcon,
-  GithubIcon,
-  BooleanIcon,
-} from "@salt-ds/icons";
+import { DarkIcon, LightIcon, MenuIcon, BooleanIcon } from "@salt-ds/icons";
 
 import { HashLink } from "react-router-hash-link";
 import wsIcon from "../assets/img/weestoater-icon.png";
@@ -125,36 +119,6 @@ export const Header = (props: any) => {
           <></>
         )}
         <FlexItem className="header-utils">
-          <a
-            href="https://github.com/weestoater/weestoater-vite-react"
-            target="_blank"
-            rel="noreferrer"
-            className="saltButton saltButton-secondary densityBtn"
-          >
-            <GithubIcon data-testid="github-icon" />
-          </a>
-
-          <ToggleButtonGroup
-            className="toggleThemeBtn"
-            onChange={handleTheme}
-            value={themeMode}
-          >
-            <ToggleButton
-              aria-label="light theme"
-              title="Light mode"
-              value="light"
-            >
-              <LightIcon />
-            </ToggleButton>
-            <ToggleButton
-              aria-label="dark theme"
-              title="Dark mode"
-              value="dark"
-            >
-              <DarkIcon />
-            </ToggleButton>
-          </ToggleButtonGroup>
-
           <Button
             onClick={handleRightDrawerRequest}
             variant="secondary"
@@ -169,6 +133,32 @@ export const Header = (props: any) => {
             className="right-drawer"
           >
             <DrawerCloseButton onClick={() => setOpenRightDrawer(false)} />
+
+            <h2>Theme</h2>
+
+            <ToggleButtonGroup
+              className="toggleThemeBtn"
+              onChange={handleTheme}
+              value={themeMode}
+            >
+              <ToggleButton
+                aria-label="light theme"
+                title="Light mode"
+                value="light"
+              >
+                <LightIcon /> Light
+              </ToggleButton>
+              <ToggleButton
+                aria-label="dark theme"
+                title="Dark mode"
+                value="dark"
+              >
+                <DarkIcon /> Dark
+              </ToggleButton>
+            </ToggleButtonGroup>
+            <br />
+            <br />
+
             <h2>Density</h2>
             <ToggleButtonGroup
               aria-label="density selector"
@@ -176,10 +166,10 @@ export const Header = (props: any) => {
               value={cdensity}
               orientation="vertical"
             >
-              <ToggleButton value="high">HIGH</ToggleButton>
-              <ToggleButton value="medium">MEDIUM</ToggleButton>
-              <ToggleButton value="low">LOW</ToggleButton>
-              <ToggleButton value="touch">TOUCH</ToggleButton>
+              <ToggleButton value="high">High </ToggleButton>
+              <ToggleButton value="medium">Medium</ToggleButton>
+              <ToggleButton value="low">Low</ToggleButton>
+              <ToggleButton value="touch">Touch</ToggleButton>
             </ToggleButtonGroup>
           </Drawer>
         </FlexItem>

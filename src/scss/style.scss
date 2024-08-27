@@ -81,7 +81,7 @@ html[data-mode="light"] {
     .w5, .w10 { width: 100%; }
 }
 .toggleThemeBtn {
-    margin: -.5rem 0 0 1rem;
+    margin: -.5rem 3rem 2rem 0;
     height: 1.7rem;
 }
 
@@ -90,7 +90,7 @@ html[data-mode="light"] {
 }
 
 .right-drawer {
-    width: 10%;
+    width: 12.5%;
     padding: 2rem;
 
     @media(max-width: 616px) {

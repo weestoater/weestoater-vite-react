@@ -75,8 +75,8 @@ header .app-header .header-nav li {
 }
 header .app-header .header-utils {
   display: flex;
-  align-content: flex-start;
-  justify-content: center;
+  align-content: flex-end;
+  justify-content: end;
   margin: 1.5rem 2rem 0 0;
 }
 header .app-header .header-utils .icon {
@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .toggleThemeBtn {
-  margin: -0.5rem 0 0 1rem;
+  margin: -0.5rem 3rem 2rem 0;
   height: 1.7rem;
 }
 
@@ -348,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .right-drawer {
-  width: 10%;
+  width: 12.5%;
   padding: 2rem;
 }
 @media (max-width: 616px) {
