@@ -7,6 +7,10 @@
             "goals": 2
         },
         {
+            "player": "Stephen O'Donnell",
+            "goals": 2
+        },
+        {
             "player": "Kofi Balmer",
             "goals": 1
         },
@@ -19,11 +23,15 @@
             "goals": 1
         },
         {
-            "player": "Stephen O'Donnell",
+            "player": "Paul McGinn",
             "goals": 1
         },
         {
             "player": "Lennon Miller",
+            "goals": 1
+        },
+        {
+            "player": "Tom Sparrow",
             "goals": 1
         },
         {

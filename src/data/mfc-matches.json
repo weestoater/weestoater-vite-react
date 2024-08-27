@@ -3,6 +3,35 @@
     "season": "2024-25",
     "details": [
         {
+            "scored": 3,
+            "conceded": 1,
+            "date": "25/08/24",
+            "opposition": "Hearts",
+            "venue": "Home",
+            "league": null,
+            "goals": [
+                {
+                "player": "Paul McGinn",
+                "mins": 24
+                },
+                {
+                "player": "Stephen O'Donnell",
+                "mins": "59"
+                },
+                {
+                "player": "Tom Sparrow",
+                "mins": 81
+                }
+            ],
+            "cards": [{
+                "player": "Andrew Haliday",
+                "card": "yellow",
+                "mins": "44"
+            }],
+            "video": "https://youtu.be/zg1cRCsZZMk?si=NKMuIpPfHrKnTSNU",
+            "notes": "Motherwell played some of the nicest football as they have in a LONG time.  The manager was very pleased as were the supporters. A rare captain and vice captain goal tally, with a very cheeky number from young Sparrow to round off the game.  Lots of positives to take away ! #COYW."
+        },
+        {
             "scored": 1,
             "conceded": 0,
             "date": "18/08/24",
