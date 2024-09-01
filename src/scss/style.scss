@@ -26,6 +26,11 @@ html[data-mode="dark"] {
     .densityBtn {
         border-color: var(--salt-color-gray-700)
     }
+
+    code {
+        border: 1px dashed var(--salt-color-green-400);
+        color: var(--salt-color-green-400);
+    }
 }
 html[data-mode="light"] {
     h1,h2,h3,h4,h5,h6 {
@@ -50,6 +55,10 @@ html[data-mode="light"] {
 
     .densityBtn {
         border-color: var(--salt-color-gray-300)
+    }
+    code {
+        border: 1px dashed var(--salt-color-orange-400);
+        color: var(--salt-color-orange-400);
     }
 
 }
@@ -80,10 +89,6 @@ html[data-mode="light"] {
 @media(max-width: 616px) {
     .w5, .w10 { width: 100%; }
 }
-.toggleThemeBtn {
-    margin: -.5rem 3rem 2rem 0;
-    height: 1.7rem;
-}
 
 .densityBtn {
     margin: -.5rem 0 0 1rem;
@@ -106,4 +111,8 @@ blockquote {
     font-size: 1.5rem;
     font-style: oblique;
     line-height: 1.9rem;
+}
+
+code {
+    font-family:'Courier New', Courier, monospace ;
 }

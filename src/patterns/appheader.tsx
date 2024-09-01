@@ -137,9 +137,9 @@ export const Header = (props: any) => {
             <h2>Theme</h2>
 
             <ToggleButtonGroup
-              className="toggleThemeBtn"
               onChange={handleTheme}
               value={themeMode}
+              orientation="vertical"
             >
               <ToggleButton
                 aria-label="light theme"

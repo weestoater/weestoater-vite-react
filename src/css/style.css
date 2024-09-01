@@ -99,8 +99,7 @@ main h2 > .saltIcon {
 main code {
   border-radius: 0.5rem;
   font-size: 1.3rem;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   padding: 0.15rem 0.25rem;
 }
 main img.avatar {
@@ -244,6 +243,7 @@ main .code-sample p {
   margin-bottom: 2rem;
   border: 1px solid #ddd;
   box-shadow: 0 0 0.333rem #ddd;
+  background-color: transparent;
 }
 
 @media (max-width: 616px) {
@@ -273,6 +273,10 @@ html[data-mode=dark] blockquote {
 html[data-mode=dark] .densityBtn {
   border-color: var(--salt-color-gray-700);
 }
+html[data-mode=dark] code {
+  border: 1px dashed var(--salt-color-green-400);
+  color: var(--salt-color-green-400);
+}
 
 html[data-mode=light] h1, html[data-mode=light] h2, html[data-mode=light] h3, html[data-mode=light] h4, html[data-mode=light] h5, html[data-mode=light] h6 {
   color: #193549;
@@ -293,6 +297,10 @@ html[data-mode=light] blockquote {
 }
 html[data-mode=light] .densityBtn {
   border-color: var(--salt-color-gray-300);
+}
+html[data-mode=light] code {
+  border: 1px dashed var(--salt-color-orange-400);
+  color: var(--salt-color-orange-400);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -338,11 +346,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
 }
-.toggleThemeBtn {
-  margin: -0.5rem 3rem 2rem 0;
-  height: 1.7rem;
-}
-
 .densityBtn {
   margin: -0.5rem 0 0 1rem;
 }
@@ -364,6 +367,10 @@ blockquote {
   font-size: 1.5rem;
   font-style: oblique;
   line-height: 1.9rem;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
 }
 
 /*# sourceMappingURL=style.css.map */

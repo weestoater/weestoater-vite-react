@@ -3,6 +3,27 @@
     "season": "2024-25",
     "details": [
         {
+            "scored": 2,
+            "conceded": 1,
+            "date": "31/08/24",
+            "opposition": "St. Johnstone",
+            "venue": "Away",
+            "league": null,
+            "goals": [
+                {
+                "player": "Dan Casey",
+                "mins": 11
+                },
+                {
+                "player": "Moses Ebiye",
+                "mins": "90+4"
+                }
+            ],
+            "cards": null,
+            "video": null,
+            "notes": "Set pieces appear to be the road to success for the 'Well. Dan Casey making his presence felt in the box and slotting in a lovely headed effort. St. Johnstone came back into it, against the run of play but 'Well dug deep and made some informed subs. Life cam back into the game again and a worthy winner for Moses Ebiye to take all three points. It clearly meant a lot to the management team as they came onto the pitch to thank the travelling support. A great result - more of the same please. 4th in the league !"
+        },
+        {
             "scored": 3,
             "conceded": 1,
             "date": "25/08/24",

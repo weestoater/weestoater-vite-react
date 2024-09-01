@@ -4,6 +4,10 @@
     "details": [
         {
             "player": "Moses Ebiye",
+            "goals": 3
+        },
+        {
+            "player": "Dan Casey",
             "goals": 2
         },
         {
@@ -16,10 +20,6 @@
         },
         {
             "player": "Shane Blaney",
-            "goals": 1
-        },
-        {
-            "player": "Dan Casey",
             "goals": 1
         },
         {
