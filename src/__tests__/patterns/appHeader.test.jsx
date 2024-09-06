@@ -17,11 +17,12 @@ describe("AppHeader pattern", () => {
     expect(altText).toBeInTheDocument();
   });
 
-  test("has github icon", () => {
+  test("has utils density switch icon", () => {
     render(<MemoryRouter><Header /></MemoryRouter>);
-    const github = screen.getByTestId('github-icon');
-    expect(github).toBeInTheDocument();
+    const densitySwitch = screen.getByTestId("density-switcher");
+    expect(densitySwitch).toBeInTheDocument();
   });
+
 
 
 });

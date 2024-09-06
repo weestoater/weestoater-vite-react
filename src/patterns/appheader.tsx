@@ -124,6 +124,7 @@ export const Header = (props: any) => {
             variant="secondary"
             className="densityBtn"
             title="Density switcher"
+            data-testid="density-switcher"
           >
             <BooleanIcon />
           </Button>
