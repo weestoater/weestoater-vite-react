@@ -3,6 +3,49 @@
     "season": "2024-25",
     "details": [
         {
+            "scored": 1,
+            "conceded": 2,
+            "date": "14/09/24",
+            "opposition": "Aberdeen",
+            "venue": "Away",
+            "league": null,
+            "goals": [
+                {
+                "player": "Moses Ebiye",
+                "mins": "88"
+                }
+            ],
+            "cards": [
+                {
+                "player": "Paul McGinn",
+                "card": "yellow",
+                "mins": "85"
+                },
+                {
+                "player": "Jack Vale",
+                "card": "yellow",
+                "mins": "67"
+                },
+                {
+                "player": "Zach Robinson",
+                "card": "yellow",
+                "mins": "52"
+                },
+                {
+                "player": "Stephen O'Donnell",
+                "card": "yellow",
+                "mins": "23"
+                },
+                {
+                "player": "Davor Zdravkovskir",
+                "card": "yellow",
+                "mins": "23"
+                }
+            ],
+            "video": null,
+            "notes": "Some positives to take on the road back to Motherwell, but sadly not three points. A late effort from Moses got us on the score sheet, just a little too late in the game for any momentum. Aberdeen defended too strongly and by the number of cards dished out to 'Well players it was somewhat scrappy. Not crest fallen, but a bump in the road to consistency. #COYW - still 5th! "
+        },
+        {
             "scored": 2,
             "conceded": 1,
             "date": "31/08/24",
@@ -21,7 +64,7 @@
             ],
             "cards": null,
             "video": null,
-            "notes": "Set pieces appear to be the road to success for the 'Well. Dan Casey making his presence felt in the box and slotting in a lovely headed effort. St. Johnstone came back into it, against the run of play but 'Well dug deep and made some informed subs. Life cam back into the game again and a worthy winner for Moses Ebiye to take all three points. It clearly meant a lot to the management team as they came onto the pitch to thank the travelling support. A great result - more of the same please. 4th in the league !"
+            "notes": "Set pieces appear to be the road to success for the 'Well. Dan Casey making his presence felt in the box and slotting in a lovely headed effort. St. Johnstone came back into it, against the run of play but 'Well dug deep and made some informed subs. Life cam back into the game again and a worthy winner for Moses Ebiye to take all three points. It clearly meant a lot to the management team as they came onto the pitch to thank the travelling support. A great result - more of the same please. 5th in the league !"
         },
         {
             "scored": 3,
