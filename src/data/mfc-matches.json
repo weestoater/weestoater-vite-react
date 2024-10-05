@@ -3,16 +3,41 @@
     "season": "2024-25",
     "details": [
         {
-            "scored": 0,
-            "conceded": 0,
+            "scored": 2,
+            "conceded": 1,
             "date": "05/10/24",
             "opposition": "Hibernian",
             "venue": "Away",
             "league": null,
-            "goals": null,
-            "cards": null,
+            "goals": [
+                {
+                "player": "Andy Halliday",
+                "mins": "80"
+                },
+                {
+                "player": "Apostolos Stamatelopoulos",
+                "mins": "56"
+                }
+            ],
+            "cards": [
+                {
+                "player": "Tom Sparrow",
+                "card": "yellow",
+                "mins": "83"
+                },
+                {
+                "player": "Ewan Wilson",
+                "card": "yellow",
+                "mins": "31"
+                },
+                {
+                "player": "Davor Zdravkoski",
+                "card": "yellow",
+                "mins": "22"
+                }
+            ],
             "video": null,
-            "notes": "Waiting for game to start..."
+            "notes": "Nightmare for Stephen O'Donnell in the box, couldn't clear his feet and Hibbies pounced. A red card for Hibs opens the game back up for the 'Well and Andy Halliday, of all people, steps up and nets a goal. #COYW 4th in the league!"
         },
         {
             "scored": 2,
@@ -43,7 +68,7 @@
                 "mins": "51"
                 },
                 {
-                "player": "Andrew Haliday",
+                "player": "Andy Halliday",
                 "card": "yellow",
                 "mins": "48"
                 },
@@ -90,7 +115,7 @@
                 "mins": "51"
                 },
                 {
-                "player": "Andrew Haliday",
+                "player": "Andy Halliday",
                 "card": "yellow",
                 "mins": "48"
                 },
@@ -194,7 +219,7 @@
                 }
             ],
             "cards": [{
-                "player": "Andrew Haliday",
+                "player": "Andy Halliday",
                 "card": "yellow",
                 "mins": "44"
             }],
@@ -717,7 +742,7 @@
                         "mins": "21"
                     },
                     {
-                        "player": "Andrew Haliday",
+                        "player": "Andy Halliday",
                         "mins": "8"
                     }
                 ],
@@ -760,7 +785,7 @@
                 "league": null,
                 "cards": [
                     {
-                        "player": "Andrew Haliday",
+                        "player": "Andy Halliday",
                         "card": "yellow",
                         "mins": "45+5"
                     },
