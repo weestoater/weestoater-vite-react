@@ -3,6 +3,18 @@
     "season": "2024-25",
     "details": [
         {
+            "scored": 0,
+            "conceded": 0,
+            "date": "05/10/24",
+            "opposition": "Hibernian",
+            "venue": "Away",
+            "league": null,
+            "goals": null,
+            "cards": null,
+            "video": null,
+            "notes": "Waiting for game to start..."
+        },
+        {
             "scored": 2,
             "conceded": 1,
             "date": "28/09/24",
@@ -19,8 +31,34 @@
                 "mins": "19"
                 }
             ],
-            "cards": null,
-            "video": null,
+            "cards": [
+                {
+                "player": "Tony Watt",
+                "card": "yellow",
+                "mins": "90+4"
+                },
+                {
+                "player": "Kofi Balmer",
+                "card": "yellow",
+                "mins": "51"
+                },
+                {
+                "player": "Andrew Haliday",
+                "card": "yellow",
+                "mins": "48"
+                },
+                {
+                "player": "Dan Casey",
+                "card": "red",
+                "mins": "47"
+                },
+                {
+                "player": "Stephen O'Donnell",
+                "card": "yellow",
+                "mins": "45+5"
+                }
+            ],
+            "video": "https://youtu.be/3OVjgoilj1g?si=H-KMO8Seg8P6FeBm",
             "notes": "A great performance from Lennon Miller to secure all 3 points. Nervous moments with red cards for both teams, penalties and the one against us SAVED. Scrappy and somewhat ill-tempered with a fair number of the players having played against or alongside each other in previous Motherwell mateches. The team dug deep and pulled out a vital victory to continue a good run of form."
         },
         {
