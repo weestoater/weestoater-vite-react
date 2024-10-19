@@ -3,6 +3,18 @@
     "season": "2024-25",
     "details": [
         {
+            "scored": 0,
+            "conceded": 1,
+            "date": "19/10/24",
+            "opposition": "Dundee",
+            "venue": "Home",
+            "league": null,
+            "goals": null,
+            "cards": null,
+            "video": null,
+            "notes": "A home defeat at the hands of a strong Dundee.  Rallied in the second half to batter their defences, but unable to penetrate and sink a goal. Unfortunately, the whistle came before we were able to equalise. Onwards and upwards."
+        },
+        {
             "scored": 2,
             "conceded": 1,
             "date": "05/10/24",
@@ -36,7 +48,7 @@
                 "mins": "22"
                 }
             ],
-            "video": null,
+            "video": "https://youtu.be/rgQ8PVTTK-0?si=zqzlBHbRAwpR5NWm",
             "notes": "Nightmare for Stephen O'Donnell in the box, couldn't clear his feet and Hibbies pounced. A red card for Hibs opens the game back up for the 'Well and Andy Halliday, of all people, steps up and nets a goal. #COYW 4th in the league!"
         },
         {
