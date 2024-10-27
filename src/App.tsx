@@ -30,7 +30,7 @@ export const App = () => {
       mode={mode}
       density={density}
       corner="rounded"
-      accent="blue"
+      accent="teal"
     >
       <HashRouter>
         <Header
