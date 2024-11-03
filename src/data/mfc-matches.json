@@ -3,6 +3,39 @@
     "season": "2024-25",
     "details": [
         {
+            "scored": 2,
+            "conceded": 1,
+            "date": "30/10/24",
+            "opposition": "Dundee United",
+            "venue": "Away",
+            "league": null,
+            "goals": [
+                {
+                "player": "Tawanda Maswanhise",
+                "mins": "23"
+                },
+                {
+                "player": "Tawanda Maswanhise",
+                "mins": "74"
+                }
+            ],
+            "cards": null,
+            "video": "https://youtu.be/wsVdGeIoz3M?si=FDC38ZySJUxAUAxC",
+            "notes": "A somewhat messy affair up in Dundee, but shows the spirit of the team and their drive to defend and counter attack.  A defensive blunder cost United dearly for our second goal. Swap positions with United for us to go back into Fourth in the league!"
+        },
+        {
+            "scored": 0,
+            "conceded": 3,
+            "date": "27/10/24",
+            "opposition": "Celtic",
+            "venue": "Home",
+            "league": null,
+            "goals": null,
+            "cards": null,
+            "video": "https://youtu.be/ptGRflXTrQA?si=uXYJVJsvegGYx8Ho",
+            "notes": "Another home defeat made even more painful as we had a number of shots on target and hit the post on two occassions. Lennon Miller doing what he does best. Neverthless, Celtic are THE quality side and an expected loss for us. But we came close to spoiling the party a little..."
+        },
+        {
             "scored": 0,
             "conceded": 1,
             "date": "19/10/24",
