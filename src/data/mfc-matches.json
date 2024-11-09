@@ -5,6 +5,26 @@
         {
             "scored": 2,
             "conceded": 1,
+            "date": "09/11/24",
+            "opposition": "St. Johnstone",
+            "venue": "Home",
+            "league": null,
+            "goals": [
+                {
+                "player": "Tawanda Maswanhise",
+                "mins": "20"
+                },
+                {
+                "player": "Tom Sparrow",
+                "mins": "34"
+                }
+            ],
+            "cards": null,
+            "video": null,
+            "notes": "Another great result for the 'Well.  Lennon Miller as captain again and crossing the ball brilliantly around the pitch. Two early goals, but no killer instinct, so a repeat of the nervous defending for the last 35+ mins. Important victory before the winter break. Keep up the good work boys."
+        },{
+            "scored": 2,
+            "conceded": 1,
             "date": "30/10/24",
             "opposition": "Dundee United",
             "venue": "Away",
