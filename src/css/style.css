@@ -202,6 +202,7 @@ main .code-sample p {
   text-align: center;
 }
 .match-details table tbody td {
+  background: rgba(255, 255, 255, 0.25);
   border: 1px solid #6a0117;
   padding: 1rem;
   font-size: 1.25rem;
@@ -299,8 +300,8 @@ html[data-mode=light] .densityBtn {
   border-color: var(--salt-color-gray-300);
 }
 html[data-mode=light] code {
-  border: 1px dashed var(--salt-color-orange-400);
-  color: var(--salt-color-orange-400);
+  border: 1px dashed var(--salt-color-orange-500);
+  color: var(--salt-color-orange-500);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -371,6 +372,7 @@ blockquote {
 
 code {
   font-family: "Courier New", Courier, monospace;
+  margin: 0 0.25rem;
 }
 
 /*# sourceMappingURL=style.css.map */
