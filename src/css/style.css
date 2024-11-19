@@ -15,7 +15,7 @@ a.skip-link {
   transform: translateY(-100%);
   transition: transform 0.3s;
 }
-a.skip-link:hover, a.skip-link:focus {
+a.skip-link:hover, a.skip-link:focus-visible {
   clip: auto;
   height: auto;
   overflow: auto;
@@ -30,6 +30,15 @@ a.skip-link:hover, a.skip-link:focus {
   z-index: 999999;
   background: yellow;
   color: blue;
+}
+
+*:focus-visible {
+  border-radius: 0.25rem;
+  outline-color: currentColor;
+  outline-style: solid;
+  outline-offset: 0.25rem;
+  outline-width: 0.25rem;
+  overflow: hidden;
 }
 
 header .app-header {
@@ -138,11 +147,13 @@ main .card-content p, main .card-content ul, main .card-content ol {
   margin-bottom: 1rem;
 }
 main .code-sample {
-  font-family: "Tahoma";
-  padding: 1rem 2rem 0.25rem;
-  margin: 0 0 1rem;
+  background: #193549;
   border: 1px solid;
   border-radius: 0.5rem;
+  color: #bada55;
+  font-family: "Gabriela", serif;
+  padding: 1rem 2rem 0.25rem;
+  margin: 0 0 1rem;
 }
 main .code-sample p {
   font-size: 1.35rem;
@@ -262,6 +273,15 @@ main .code-sample p {
   padding: 0;
 }
 
+*:focus-visible {
+  border-radius: 0.25rem;
+  outline-color: currentColor;
+  outline-style: solid;
+  outline-offset: 0.25rem;
+  outline-width: 0.25rem;
+  overflow: hidden;
+}
+
 html[data-mode=dark] h1, html[data-mode=dark] h2, html[data-mode=dark] h3, html[data-mode=dark] h4, html[data-mode=dark] h5, html[data-mode=dark] h6 {
   color: var(--salt-color-green-300);
   border-bottom: 1px dashed var(--salt-color-green-300);
@@ -275,8 +295,9 @@ html[data-mode=dark] .densityBtn {
   border-color: var(--salt-color-gray-700);
 }
 html[data-mode=dark] code {
-  border: 1px dashed var(--salt-color-green-400);
-  color: var(--salt-color-green-400);
+  background: var(--salt-color-gray-900);
+  border: 1px dashed var(--salt-color-green-300);
+  color: var(--salt-color-green-300);
 }
 
 html[data-mode=light] h1, html[data-mode=light] h2, html[data-mode=light] h3, html[data-mode=light] h4, html[data-mode=light] h5, html[data-mode=light] h6 {
@@ -300,8 +321,9 @@ html[data-mode=light] .densityBtn {
   border-color: var(--salt-color-gray-300);
 }
 html[data-mode=light] code {
-  border: 1px dashed var(--salt-color-orange-500);
-  color: var(--salt-color-orange-500);
+  background: var(--salt-color-gray-10);
+  border: 1px dashed var(--salt-color-orange-700);
+  color: var(--salt-color-orange-700);
 }
 
 h1, h2, h3, h4, h5, h6 {

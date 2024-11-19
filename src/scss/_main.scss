@@ -49,12 +49,15 @@ main {
             margin-bottom: 1rem;
         }
     }
+
     .code-sample {
-        font-family: 'Tahoma';
+        background: $vscode;
+        border: 1px solid;
+        border-radius: .5rem;
+        color: $chuck;
+        font-family: "Gabriela", serif;
         padding: 1rem 2rem .25rem;
         margin: 0 0 1rem;
-        border: 1px solid;
-        border-radius: .5rem;    
         
         p {
             font-size: 1.35rem;

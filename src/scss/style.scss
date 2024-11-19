@@ -11,6 +11,15 @@
     padding: 0;
 }
 
+*:focus-visible {
+    border-radius: .25rem;
+    outline-color: currentColor;
+    outline-style: solid;
+    outline-offset: .25rem;
+    outline-width: .25rem;
+    overflow: hidden;
+}
+
 html[data-mode="dark"] {
 
     h1,h2, h3, h4,h5, h6 {
@@ -29,8 +38,9 @@ html[data-mode="dark"] {
     }
 
     code {
-        border: 1px dashed var(--salt-color-green-400);
-        color: var(--salt-color-green-400);
+        background: var(--salt-color-gray-900);
+        border: 1px dashed var(--salt-color-green-300);
+        color: var(--salt-color-green-300);
     }
 }
 html[data-mode="light"] {
@@ -58,11 +68,13 @@ html[data-mode="light"] {
         border-color: var(--salt-color-gray-300)
     }
     code {
-        border: 1px dashed var(--salt-color-orange-500);
-        color: var(--salt-color-orange-500);
+        background: var(--salt-color-gray-10);
+        border: 1px dashed var(--salt-color-orange-700);
+        color: var(--salt-color-orange-700);
     }
 
 }
+
 //--    universal
 //----  headings
  h1,h2,h3,h4,h5,h6 {

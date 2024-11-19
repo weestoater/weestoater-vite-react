@@ -9,7 +9,7 @@ a.skip-link {
     transform: translateY(-100%);
     transition: transform 0.3s;
     &:hover,
-    &:focus {
+    &:focus-visible {
         clip: auto;
         height: auto;
         overflow: auto;
@@ -25,4 +25,13 @@ a.skip-link {
         background: yellow;
         color: blue;
     }
+}
+
+*:focus-visible {
+    border-radius: .25rem;
+    outline-color: currentColor;
+    outline-style: solid;
+    outline-offset: .25rem;
+    outline-width: .25rem;
+    overflow: hidden;
 }
