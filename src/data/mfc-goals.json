@@ -23,6 +23,10 @@
             "goals": 2
         },
         {
+            "player": "Zack Robinson",
+            "goals": 2
+        },
+        {
             "player": "Tom Sparrow",
             "goals": 2
         },
@@ -40,10 +44,6 @@
         },
         {
             "player": "Paul McGinn",
-            "goals": 1
-        },
-        {
-            "player": "Zack Robinson",
             "goals": 1
         },
         {

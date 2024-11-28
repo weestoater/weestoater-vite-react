@@ -3,6 +3,23 @@
     "season": "2024-25",
     "details": [
         {
+            "scored": 1,
+            "conceded": 2,
+            "date": "23/11/24",
+            "opposition": "Ross County",
+            "venue": "Away",
+            "league": null,
+            "goals": [
+                {
+                "player": "Zach Robinson",
+                "mins": "83"
+                }
+            ],
+            "cards": null,
+            "video": "https://youtu.be/TtgMg9puVU0?si=ddoXr1UfBuI8sNbK",
+            "notes": "A poor result after travelling in trecherous conditions for the supporters who braved the A9. Little to write home about and not much to take from it. Sparrow picked up a knock and looks doubtful for the next few games. Still in top 6 so can't complain too much. #COYW!!"
+        },
+        {
             "scored": 2,
             "conceded": 1,
             "date": "09/11/24",
@@ -20,7 +37,7 @@
                 }
             ],
             "cards": null,
-            "video": null,
+            "video": "https://youtu.be/QXNHFUOVVbQ?si=m3w04-qjyu-hV1sM",
             "notes": "Another great result for the 'Well.  Lennon Miller as captain again and crossing the ball brilliantly around the pitch. Two early goals, but no killer instinct, so a repeat of the nervous defending for the last 35+ mins. Important victory before the winter break. Keep up the good work boys."
         },{
             "scored": 2,

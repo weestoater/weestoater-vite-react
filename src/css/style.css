@@ -32,15 +32,6 @@ a.skip-link:hover, a.skip-link:focus-visible {
   color: blue;
 }
 
-*:focus-visible {
-  border-radius: 0.25rem;
-  outline-color: currentColor;
-  outline-style: solid;
-  outline-offset: 0.25rem;
-  outline-width: 0.25rem;
-  overflow: hidden;
-}
-
 header .app-header {
   margin: 0 0 2rem;
   padding: 0;

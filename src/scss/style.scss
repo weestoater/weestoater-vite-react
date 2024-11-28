@@ -1,10 +1,6 @@
+@use 'utils' as *;
 
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Ubuntu:wght@300;400;500&display=swap');
-@import "./variables";
-@import "./utils";
-@import "./header";
-@import "./main";
-@import "./football";
 
 * {
     margin: 0;
@@ -99,6 +95,7 @@ html[data-mode="light"] {
 .mb-4 { margin-bottom: 4rem;}
 .w5 { max-width: 5rem;}
 .w10 { max-width: 10rem;}
+
 @media(max-width: 616px) {
     .w5, .w10 { width: 100%; }
 }

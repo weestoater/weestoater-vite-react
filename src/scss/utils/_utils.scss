@@ -26,12 +26,3 @@ a.skip-link {
         color: blue;
     }
 }
-
-*:focus-visible {
-    border-radius: .25rem;
-    outline-color: currentColor;
-    outline-style: solid;
-    outline-offset: .25rem;
-    outline-width: .25rem;
-    overflow: hidden;
-}
