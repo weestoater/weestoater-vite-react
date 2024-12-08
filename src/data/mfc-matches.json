@@ -4,6 +4,51 @@
     "details": [
         {
             "scored": 1,
+            "conceded": 0,
+            "date": "7/12/24",
+            "opposition": "St. Mirren",
+            "venue": "Away",
+            "league": null,
+            "goals": [
+                {
+                "player": "Tony Watt",
+                "mins": "90+3"
+                }
+            ],
+            "cards": null,
+            "video": "https://youtu.be/9TxVTWr1UEo?si=KD0WOUfKDUR5Ki4n",
+            "notes": "A very soft second yellow for the Buddies, gave us a free-kick and a man advantage in the box. Tony Watt stepped up and put the ball in the net! Hardly a world class game, but a good result for the 'Well in the end and a very welcomed three points. #COYW!!"
+        },
+        {
+            "scored": 1,
+            "conceded": 4,
+            "date": "4/12/24",
+            "opposition": "Dundee",
+            "venue": "Away",
+            "league": null,
+            "goals": [
+                {
+                "player": "Apostolos Stamatelopoulos",
+                "mins": "19"
+                }
+            ],
+            "cards": null,
+            "video": "https://youtu.be/SzRjK9XHMTM?si=28tOnYju3e2P9FqS",
+            "notes": "Dismal!"            
+        },
+        {
+            "scored": 0,
+            "conceded": 3,
+            "date": "30/11/24",
+            "opposition": "Hibernian",
+            "venue": "Home",
+            "league": null,
+            "goals": null,
+            "cards": null,
+            "video": null,
+            "notes": "Two poor mistakes from Oxborough made it an uphill task to salvage anything from this game. That was made impossible with the lack of invention or creativity from the 'Well. Another loss signals a downward turn in the direction of points and the manager needs to stop the rot asap. #COYW!!"
+        },{
+            "scored": 1,
             "conceded": 2,
             "date": "23/11/24",
             "opposition": "Ross County",
