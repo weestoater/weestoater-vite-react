@@ -11,11 +11,22 @@
             "goals": 4
         },
         {
+            "player": "Apostolos Stamatelopoulos",
+            "goals": 4
+        },
+        {
             "player": "Tawanda Maswanhise",
+            "goals": 3
+        },{
+            "player": "Tom Sparrow",
             "goals": 3
         },
         {
             "player": "Dan Casey",
+            "goals": 2
+        },
+        {
+            "player": "Andy Halliday",
             "goals": 2
         },
         {
@@ -25,15 +36,8 @@
         {
             "player": "Zack Robinson",
             "goals": 2
-        },
-        {
-            "player": "Tom Sparrow",
-            "goals": 2
-        },
-        {
-            "player": "Apostolos Stamatelopoulos",
-            "goals": 2
-        },
+        },        
+        
         {
             "player": "Kofi Balmer",
             "goals": 1
@@ -42,10 +46,7 @@
             "player": "Shane Blaney",
             "goals": 1
         },
-        {
-            "player": "Andy Halliday",
-            "goals": 1
-        },
+        
         {
             "player": "Paul McGinn",
             "goals": 1

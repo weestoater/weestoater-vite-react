@@ -21,13 +21,7 @@ export const Header = (props: any) => {
   const [openPrimary, setOpenPrimary] = useState(false);
   const [openRightDrawer, setOpenRightDrawer] = useState(false);
 
-  const isMobile = useResponsiveProp(
-    {
-      xs: true,
-      sm: false,
-    },
-    false
-  );
+  const isMobile = useResponsiveProp({ xs: true, sm: false }, false);
 
   const items = [
     "Home",

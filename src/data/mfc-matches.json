@@ -3,6 +3,35 @@
     "season": "2024-25",
     "details": [
         {
+            "scored": 4,
+            "conceded": 3,
+            "date": "14/12/24",
+            "opposition": "Dundee United",
+            "venue": "Home",
+            "league": null,
+            "goals": [                
+                {
+                "player": "Tom Sparrow",
+                "mins": "67"
+                },
+                {
+                "player": "Apostolos Stamatelopoulos",
+                "mins": "40"
+                },
+                {
+                "player": "Andy Halliday",
+                "mins": "33"
+                },
+                {
+                "player": "Apostolos Stamatelopoulos",
+                "mins": "1"
+                }
+            ],
+            "cards": null,
+            "video": "https://youtu.be/XOJdeSTyLfQ?si=-B8g32IEXhLcBHkD",
+            "notes": "Great start from the 'Well with a very early goal. Made all the more painfull by the softest of penalties straight after it. Another flap or two in the box making it nervous viewing and a embarrassing second goal for the visitors. Fair result in the end, despite NOT getting a penalty which had more obvious and clearcut contact than the one awarded in the first half to Dundee. #COYW!!"
+        },
+        {
             "scored": 1,
             "conceded": 0,
             "date": "7/12/24",
