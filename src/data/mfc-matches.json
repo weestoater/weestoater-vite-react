@@ -3,6 +3,27 @@
     "season": "2024-25",
     "details": [
         {
+            "scored": 1,
+            "conceded": 1,
+            "date": "20/12/24",
+            "opposition": "Kilmarnock",
+            "venue": "Home",
+            "league": null,
+            "goals": [
+                {
+                "player": "Liam Gordon",
+                "mins": "1"
+                }
+            ],
+            "cards": [{
+                "player": "Dan Casey",
+                "card": "red",
+                "mins": "77"  
+            }],
+            "video": "https://youtu.be/-i17UYpGIyc?si=xYVZWtY97dgq7VZp",
+            "notes": "Good goal from Motherwell early in the game, but little creativity thereafter. Game was dominated by rotten refereeing - the red card for Casey is embarrassing and trended quickly as one of the worst decisions ever in Scottish Football. Nothing more to do than chalk it up to poor stewarship. Chris Graham should be ashamed of himself! #COYW!!"
+        },
+        {
             "scored": 4,
             "conceded": 3,
             "date": "14/12/24",
