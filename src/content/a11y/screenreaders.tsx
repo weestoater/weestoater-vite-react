@@ -18,12 +18,14 @@ export const ScreenReaders = () => {
           <Binoculars size={64} />
         </div>
         <p>
-          Since joining a new team at the start of Dec '24 I've been knee deep
-          in learning screen readers. A few of my colleagues are visually
-          impaired and use them all the time to perform their respective work
-          duties. Others in the team, like myself, use them to test the
-          Accessibility compliance of software and other digitial products
-          inside the firm.
+          On the first Monday of Dec '24 I switched over to my dream team at
+          work. We've partnered on a number of projects and I have wanted to be
+          more closely involved with them for as long as I can remember. Since
+          joining,I've been knee deep in learning screen readers. A few of my
+          new colleagues are visually impaired and use them all the time to
+          perform their respective work duties. Others in the team, like myself,
+          use them to test the Accessibility compliance of websites, software
+          and other digitial products inside the firm.
         </p>
 
         <div className="left">
