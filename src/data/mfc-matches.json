@@ -3,6 +3,55 @@
     "season": "2024-25",
     "details": [
         {
+            "scored": 2,
+            "conceded": 2,
+            "date": "29/12/24",
+            "opposition": "Rangers",
+            "venue": "Home",
+            "league": null,
+            "goals": [
+                {
+                "player": "Apostolos Stamatelopoulos",
+                "mins": "16"
+                },
+                {
+                "player": "Tawanda Maswanhise",
+                "mins": "35"
+                }],
+            "cards": [
+                {
+                "player": "Lennon Miller",
+                "card": "yellow",
+                "mins": "53"
+                },{
+                "player": "Tom Sparrow",
+                "card": "yellow",
+                "mins": "90"
+                },{
+                "player": "Tony Watt",
+                "card": "yellow",
+                "mins": "90+9"
+                },{
+                "player": "Sam Nicholson",
+                "card": "yellow",
+                "mins": "90+12"
+                }],
+            "video": "https://youtu.be/5aw0kV8bdBs?si=goZVXFj6rMV_eEAx",
+            "notes": "Great start to the game, with the Glasgow team on the back foot after two Motherwell goals. Came out all guns blazing in the second half and pulled one back quite early on. Two more HORRENDOUS decisions from VAR where a perfectly decent goal is chopped off for encroachment to the goal keeper, after he palmed the ball into his own net and an incredible micrometer offside against Dan Casey. Manager red carded for praising the referee - Kevin Clancy is an absolute arse! 2 points STOLEN from Motherwell and we should be a position higher in the league.#COYW!!"
+        },
+        {
+            "scored": 0,
+            "conceded": 4,
+            "date": "26/12/24",
+            "opposition": "Celtic",
+            "venue": "Away",
+            "league": null,
+            "goals": null,
+            "cards": null,
+            "video": null,
+            "notes": "An expected defeat to the league leaders, some promising moments, but not enough to give any glimmers of hope. Onwards and upwards! #COYW!!"
+        },
+        {
             "scored": 1,
             "conceded": 1,
             "date": "20/12/24",

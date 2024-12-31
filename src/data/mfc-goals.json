@@ -3,7 +3,15 @@
     "season": "2024-25",
     "details": [
         {
+            "player": "Apostolos Stamatelopoulos",
+            "goals": 5
+        },
+        {
             "player": "Moses Ebiye",
+            "goals": 4
+        },
+        {
+            "player": "Tawanda Maswanhise",
             "goals": 4
         },
         {
@@ -11,13 +19,6 @@
             "goals": 4
         },
         {
-            "player": "Apostolos Stamatelopoulos",
-            "goals": 4
-        },
-        {
-            "player": "Tawanda Maswanhise",
-            "goals": 3
-        },{
             "player": "Tom Sparrow",
             "goals": 3
         },
