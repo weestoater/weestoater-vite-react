@@ -3,6 +3,23 @@
     "season": "2024-25",
     "details": [
         {
+            "scored": 0,
+            "conceded": 1,
+            "date": "02/01/25",
+            "opposition": "Hearts",
+            "venue": "Away",
+            "league": null,
+            "goals": null,
+            "cards": [
+                {
+                "player": "Dan Casey",
+                "card": "yellow",
+                "mins": "65"
+                }],
+            "video": "https://youtu.be/6v9bJ7MUe7s?si=O2MiAmGZFxkJVlRv",
+            "notes": "A performance Mark Knopfler would be proud of = DIRE! Worst game for a LONG time, nae desire, nae cohesion, nae points. 6 shots on goal for Motherwell for the whole game, regardless of forcing Craig Gordon into a couple of great saves - single figure efforts on goals IS NOT good enough. #COYW!!"
+        },
+        {
             "scored": 2,
             "conceded": 2,
             "date": "29/12/24",
