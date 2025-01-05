@@ -3,6 +3,37 @@
     "season": "2024-25",
     "details": [
         {
+            "scored": 2,
+            "conceded": 0,
+            "date": "05/01/25",
+            "opposition": "Aberdeen",
+            "venue": "Home",
+            "league": null,
+            "goals": [
+                {
+                    "player": "Ewan Wilson",
+                    "mins": "34"
+                },
+                {
+                    "player": "Tawanda Maswanhise",
+                    "mins": "45"
+                }
+            ],
+            "cards": [
+                {
+                "player": "Davor Zdravkoski",
+                "card": "yellow",
+                "mins": "8"
+                },
+                {
+                "player": "Tawanda Maswanhise",
+                "card": "yellow",
+                "mins": "15"
+                }],
+            "video": null,
+            "notes": "A gritting and stop-start kind of game in the first half, mainly due to I'm the star Nick Walsh as referee. 'Well were quick on the break and got some decent shots on goal, with the first goal coming from youngster Ewan Wilson. Then the fun started with a timely RED card for the Dons with some unsporting behaviour from Slobodan Rubezic. To compound matters after the dust settles Maswanhise scores a brilliant second goal. Very scrappy second half, with very little to write home about. A much needed 3 points to the 'Well. #COYW!!"
+        },
+        {
             "scored": 0,
             "conceded": 1,
             "date": "02/01/25",
