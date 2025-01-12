@@ -273,7 +273,12 @@ main .code-sample p {
   overflow: hidden;
 }
 
-html[data-mode=dark] h1, html[data-mode=dark] h2, html[data-mode=dark] h3, html[data-mode=dark] h4, html[data-mode=dark] h5, html[data-mode=dark] h6 {
+html[data-mode=dark] h1,
+html[data-mode=dark] h2,
+html[data-mode=dark] h3,
+html[data-mode=dark] h4,
+html[data-mode=dark] h5,
+html[data-mode=dark] h6 {
   color: var(--salt-color-green-300);
   border-bottom: 1px dashed var(--salt-color-green-300);
 }
@@ -291,7 +296,12 @@ html[data-mode=dark] code {
   color: var(--salt-color-green-300);
 }
 
-html[data-mode=light] h1, html[data-mode=light] h2, html[data-mode=light] h3, html[data-mode=light] h4, html[data-mode=light] h5, html[data-mode=light] h6 {
+html[data-mode=light] h1,
+html[data-mode=light] h2,
+html[data-mode=light] h3,
+html[data-mode=light] h4,
+html[data-mode=light] h5,
+html[data-mode=light] h6 {
   color: #193549;
   border-bottom: 1px dashed #bada55;
 }
@@ -308,6 +318,14 @@ html[data-mode=light] blockquote {
   border: 1px dotted #bada55;
   border-left: 5px solid #bada55;
 }
+html[data-mode=light] blockquote.sad {
+  border: 1px dashed #193549;
+  border-left: 5px solid #193549;
+  font-family: "Georgia", serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  line-height: 1.75;
+}
 html[data-mode=light] .densityBtn {
   border-color: var(--salt-color-gray-300);
 }
@@ -317,7 +335,12 @@ html[data-mode=light] code {
   color: var(--salt-color-orange-700);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   line-height: normal;
@@ -356,7 +379,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 616px) {
-  .w5, .w10 {
+  .w5,
+  .w10 {
     width: 100%;
   }
 }

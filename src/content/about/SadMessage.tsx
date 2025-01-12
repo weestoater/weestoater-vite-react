@@ -7,9 +7,12 @@ export const SadMessage = () => {
       <div className="card-content">
         <p>
           Sadly in life, from time to time, we lose someone who means a great
-          deal to us. In my case I've lost both my own father and my
-          father-in-law. I loved them so much and they taught me so many things
-          about how to be a good, caring and loving husband / father.
+          deal to us.
+        </p>
+        <p>
+          In my case I've lost both my own father and my father-in-law. I loved
+          them so much and they taught me so many things about how to be a good,
+          caring and loving husband / father.
         </p>
 
         <p>
@@ -17,7 +20,7 @@ export const SadMessage = () => {
           I hope it helps you.
         </p>
 
-        <blockquote>
+        <blockquote className="sad">
           Don't grieve for me for now I'm free,
           <br />
           I'm following the path God laid for me
