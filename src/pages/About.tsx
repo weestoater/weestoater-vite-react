@@ -3,6 +3,7 @@ import { GridItem, GridLayout } from "@salt-ds/core";
 
 import { WhatIsWeestoater } from "../content/about/WhatIsWeestoater";
 import { WhoIsWeestoater } from "../content/about/WhoIsWeestoater";
+import { SadMessage } from "../content/about/SadMessage";
 
 export const AboutPage = () => {
   return (
@@ -14,6 +15,9 @@ export const AboutPage = () => {
         </GridItem>
         <GridItem>
           <WhatIsWeestoater />
+        </GridItem>
+        <GridItem>
+          <SadMessage />
         </GridItem>
       </GridLayout>
     </>
