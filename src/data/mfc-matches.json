@@ -3,6 +3,23 @@
     "season": "2024-25",
     "details": [
       {
+        "scored": 1,
+        "conceded": 2,
+        "date": "25/01/25",
+        "opposition": "St. Johnstone",
+        "venue": "Away",
+        "league": null,
+        "goals": [
+          {
+            "player": "Andy Halliday",
+            "mins": "4"
+          }
+        ],
+        "cards": null,
+        "video": null,
+        "notes": "Promising start, with the gift of a penalty in the first minute. But back to usual sleepy defence and lack of ambition. Some breakways, but not a single goal. Then in the second half everything goes to pot, with little effort or desire shown. Steelmen my backside! #COYW!!"
+      },
+      {
         "scored": 0,
         "conceded": 1,
         "date": "18/01/25",
