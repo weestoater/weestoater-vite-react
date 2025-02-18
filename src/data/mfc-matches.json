@@ -3,6 +3,35 @@
     "season": "2024-25",
     "details": [
       {
+        "scored": 0,
+        "conceded": 3,
+        "date": "15/02/25",
+        "opposition": "Ross County",
+        "venue": "Home",
+        "league": null,
+        "goals": null,
+        "cards": null,
+        "video": null,
+        "notes": "Poor show - all too familiar lack of effort and desire from the usual suspects! #COYW!!"
+      },
+      {
+        "scored": 1,
+        "conceded": 3,
+        "date": "2/02/25",
+        "opposition": "Celtic",
+        "venue": "Home",
+        "league": null,
+        "goals": [
+          {
+            "player": "Luke Armstrong",
+            "mins": "23"
+          }
+        ],
+        "cards": null,
+        "video": null,
+        "notes": "Great debut from Luke Armstrong and some flashes of brilliance from the 'Well - just nowhere near enough compared to Celtic! #COYW!!"
+      },
+      {
         "scored": 1,
         "conceded": 2,
         "date": "25/01/25",
